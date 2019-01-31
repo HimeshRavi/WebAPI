@@ -30,3 +30,10 @@ For extension:
 1) Apply some form of authentication and/or authorisation (provide us with details as to what and why).
 2) Add filtering to the GET products route (e.g. filter by Description/Model/Brand).
 3) Create a light weight UI for querying the API.
+
+### Instruction to Run the WebAPI
+
+1) Download/Clone the repository.
+2) Open in Visual Studio.
+3) Press `Ctrl+F5` to build and run the solution.
+4) Navigate to `/Products`.

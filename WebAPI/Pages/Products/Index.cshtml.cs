@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using WebAPI.Models;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace WebAPI.Pages.Products
 {
@@ -18,11 +19,25 @@ namespace WebAPI.Pages.Products
             _context = context;
         }
 
+        public SelectList Models { get; private set; }
         public IList<Product> Product { get;set; }
+        [BindProperty(SupportsGet = true)]
+        public string SearchString { get; set; }
+        public SelectList Brands { get; set; }
+        [BindProperty(SupportsGet = true)]
+        public string ProductBrand { get; set; }
+        public string ProductModel { get; set; }
 
         public async Task OnGetAsync()
         {
-            Product = await _context.Product.ToListAsync();
+            var products = from p in _context.Product select p;
+
+            if (!string.IsNullOrEmpty(SearchString))
+            {
+                products = products.Where(s => s.Brand.Contains(SearchString));
+            }
+
+            Product = await products.ToListAsync();
         }
     }
 }

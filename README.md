@@ -1,6 +1,6 @@
 # WebAPI
 
-Implemention of a RESTful web service that performs CRUD operations (Create, Read, Update, and Delete) for a *Product* entity.
+Implementation of a RESTful web service that performs CRUD operations (Create, Read, Update, and Delete) for a *Product* entity.
 
 ```
 public class Product
@@ -34,5 +34,5 @@ For extension:
 ### Instruction to Run the WebAPI
 
 1) Download/Clone the repository.
-2) Open the solution in Visual Studio.
+2) Open the solution in Visual Studio (preferably 2017).
 3) Press `Ctrl+F5` to build and run.

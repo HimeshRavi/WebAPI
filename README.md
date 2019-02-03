@@ -23,20 +23,20 @@ DELETE products/{id}
 
 ## Initial scope(s):
 1) Use C# and the Web API 2 framework.
-2) Implementation of automated testing with the following scripts run in Postman:
-    1. Status code : Code is 200
+2) Implementation of automated testing with the following scripts run in [Postman](https://www.getpostman.com/):
+    1. **Status code : Code is 200**
     ```
     pm.test("Status code is 200", function () {
     pm.response.to.have.status(200);
     });
     ```
-    2. Response time is less than 200ms
+    2. **Response time is less than 200ms**
     ```
     pm.test("Response time is less than 200ms", function () {
     pm.expect(pm.response.responseTime).to.be.below(200);
     });
     ```
-    3. Successful POST request
+    3. **Successful POST request**
     ```
     pm.test("Successful POST request", function () {
     pm.expect(pm.response.code).to.be.oneOf([201,202]);
@@ -52,6 +52,6 @@ DELETE products/{id}
 ## Instruction to Run the WebAPI
 
 1) Download/Clone the repository.
-2) Open the solution in Visual Studio (preferably 2017).
+2) Open the solution in [Visual Studio](https://visualstudio.microsoft.com/) (preferably 2017).
 3) Press `Ctrl+F5` to build and run.
-4) Use the UI in the browser or Postman to make the API calls.
+4) Use the UI in the browser or [Postman](https://www.getpostman.com/) to make the API calls.

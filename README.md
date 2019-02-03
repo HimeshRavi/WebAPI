@@ -23,8 +23,26 @@ DELETE products/{id}
 
 Initial expectation(s):
 1) Use C# and the Web API 2 framework.
-2) Implement some form of automated testing.
-3) Use some form of in-memory persistence.
+2) Implementation of automated testing with the following scripts run in Postman:
+    1. Status code : Code is 200
+    ```
+    pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+    });
+    ```
+    2. Response time is less than 200ms
+    ```
+    pm.test("Response time is less than 200ms", function () {
+    pm.expect(pm.response.responseTime).to.be.below(200);
+    });
+    ```
+    3. Successful POST request
+    ```
+    pm.test("Successful POST request", function () {
+    pm.expect(pm.response.code).to.be.oneOf([201,202]);
+    });
+    ```
+3) Use of in-memory persistence (localDB).
 
 For extension:
 1) Apply some form of authentication and/or authorisation.

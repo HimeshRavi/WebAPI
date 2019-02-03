@@ -59,9 +59,9 @@ DELETE products/{id}
 
 ## Reference(s)
 
-[ASP.NET](https://www.asp.net/)
-[ASP.NET Documentation](https://docs.microsoft.com/en-us/aspnet/)
-[.NET Documentation](https://docs.microsoft.com/en-us/dotnet/)
-[Visual Studio Documentation](https://docs.microsoft.com/en-us/visualstudio/?view=vs-2017)
-[NuGet Documentation](https://docs.microsoft.com/en-us/nuget/)
-[PowerShell Documentation](https://docs.microsoft.com/en-us/powershell/)
+* [ASP.NET](https://www.asp.net/)
+* [ASP.NET Documentation](https://docs.microsoft.com/en-us/aspnet/)
+* [.NET Documentation](https://docs.microsoft.com/en-us/dotnet/)
+* [Visual Studio Documentation](https://docs.microsoft.com/en-us/visualstudio/?view=vs-2017)
+* [NuGet Documentation](https://docs.microsoft.com/en-us/nuget/)
+* [PowerShell Documentation](https://docs.microsoft.com/en-us/powershell/)

@@ -21,7 +21,7 @@ PUT products/{id}
 DELETE products/{id}
 ```
 
-Initial expectation(s):
+Initial scope(s):
 1) Use C# and the Web API 2 framework.
 2) Implementation of automated testing with the following scripts run in Postman:
     1. Status code : Code is 200
@@ -44,13 +44,14 @@ Initial expectation(s):
     ```
 3) Use of in-memory persistence (localDB).
 
-For extension:
+Further extension(s):
 1) Apply some form of authentication and/or authorisation.
-2) Add filtering to the GET products route (e.g. filter by Description/Model/Brand).
-3) Create a light weight UI for querying the API.
+2) Added filtering to the GET products route (e.g. filter by Brand).
+3) Creation of a light weight UI for querying the API.
 
 ### Instruction to Run the WebAPI
 
 1) Download/Clone the repository.
 2) Open the solution in Visual Studio (preferably 2017).
 3) Press `Ctrl+F5` to build and run.
+4) Use the UI in the browser or Postman to make the API calls.

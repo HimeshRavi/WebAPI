@@ -53,7 +53,7 @@ DELETE products/{id}
 3) Double-click and load the solution - "**WebAPI.sln**".
 4) Build the solution by pressing `Ctrl+Shift+B` _(Output: ===== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped =====)_.
 5) Now run the successfully built solution by pressing `F5`.
-6) Security warning about SSL certificate: Select _Yes_; then _Yes_ once again to install the certificate _(this will open up your browser on 'https://localhost:<port>/')_.
+6) Security warning about SSL certificate: Select _Yes_; then _Yes_ once again to install the certificate _(this will open up your browser on `localhost:port#`)_.
 7) _Accept_ the privacy and cookie use policy from the on-screen prompt.
 8) Voilà! You're all done. Now use the UI in the browser or [Postman](https://www.getpostman.com/) to make the API calls.
 

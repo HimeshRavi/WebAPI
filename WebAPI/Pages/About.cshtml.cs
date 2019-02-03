@@ -12,7 +12,7 @@ namespace WebAPI.Pages
 
         public void OnGet()
         {
-            Message = "Your application description page.";
+            Message = "WebAPI's description page.";
         }
     }
 }

@@ -21,7 +21,7 @@ PUT products/{id}
 DELETE products/{id}
 ```
 
-Initial scope(s):
+## Initial scope(s):
 1) Use C# and the Web API 2 framework.
 2) Implementation of automated testing with the following scripts run in Postman:
     1. Status code : Code is 200
@@ -44,12 +44,12 @@ Initial scope(s):
     ```
 3) Use of in-memory persistence (localDB).
 
-Further extension(s):
+## Further extension(s):
 1) Apply some form of authentication and/or authorisation.
 2) Added filtering to the GET products route (e.g. filter by Brand).
 3) Creation of a light weight UI for querying the API.
 
-### Instruction to Run the WebAPI
+## Instruction to Run the WebAPI
 
 1) Download/Clone the repository.
 2) Open the solution in Visual Studio (preferably 2017).

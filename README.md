@@ -45,9 +45,8 @@ DELETE products/{id}
 3) Use of in-memory persistence (localDB).
 
 ## Further extension(s):
-1) Apply some form of authentication and/or authorisation.
-2) Added filtering to the GET products route (e.g. filter by Brand).
-3) Creation of a light weight UI for querying the API.
+1) Addition of filtering to the GET products route (e.g. filter by Brand).
+2) Creation of a light weight UI for querying the API.
 
 ## Instruction to Run the WebAPI
 
